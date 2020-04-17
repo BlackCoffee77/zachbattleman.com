@@ -11,20 +11,36 @@ background-color: var(--battleman-green);
   }
   
 .header .profile-image{
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
     margin-right: 80px;
+    
 }
 
 .header .profile-content .name {
     color: #49515a;
-    font-size: 38px;
+    font-size: 24pt;
     margin-bottom: 5px;
-    margin-top: 30px;
+    margin-top: 20px;
     
   }
 
-.container .header{
+.header .container{
     background-color: #77dd77;
-    width: 1000px;
+
+}
+
+.jumbotron{
+  background-color: #77dd77;
+   padding: 5em inherit;
+   background-size: auto 100%; 
+}
+
+.profile-full{
+  display: flex;
+}
+
+.profile-content{
+  color: #49515a;
+  vertical-align: middle;
 }
