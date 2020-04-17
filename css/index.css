@@ -37,3 +37,27 @@ body {
 	vertical-align: middle;
 	font-family: Verdana, Geneva, sans-serif;
 }
+
+.about {
+	background-color: var(--secondary-color);
+	color: #49515a;
+	vertical-align: middle;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.goals {
+	background-color: var(--secondary-color);
+	color: #49515a;
+	vertical-align: middle;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.achievements {
+	background-color: var(--secondary-color);
+	color: #49515a;
+	vertical-align: middle;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.row1 {
+}
