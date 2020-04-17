@@ -38,6 +38,19 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 }
 
+.section {
+	margin-bottom: 30px;
+}
+
+.section .section-inner {
+	padding: 30px;
+}
+/* 
+.section .section-header {
+	margin-top: 0;
+	margin-bottom: 30px;
+} */
+
 .about {
 	background-color: var(--secondary-color);
 	color: #49515a;
@@ -52,7 +65,7 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 }
 
-.achievements {
+.projects {
 	background-color: var(--secondary-color);
 	color: #49515a;
 	vertical-align: middle;
