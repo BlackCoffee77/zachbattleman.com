@@ -2,18 +2,19 @@
 
 body {
 	color: #fffae3;
-	background-color: var(--battleman-green);
+	background-color: var(--main-color);
 }
 
 .header {
-	padding: 30px 0;
-	background: var(--battleman-green);
+	padding: 15px 0;
+	background: var(--main-color);
 }
 
 .header .profile-image {
 	width: 20%;
 	height: 20%;
 	margin-right: 80px;
+	margin-left: 5%;
 }
 
 .header .profile-content .name {
@@ -23,14 +24,8 @@ body {
 	margin-top: 20px;
 }
 
-.header .container {
-	background-color: #77dd77;
-}
-
 .jumbotron {
-	background-color: #77dd77;
-	padding: 5em inherit;
-	background-size: auto 100%;
+	background-color: var(--secondary-color);
 }
 
 .profile-full {
