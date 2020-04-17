@@ -43,4 +43,5 @@ background-color: var(--battleman-green);
 .profile-content{
   color: #49515a;
   vertical-align: middle;
+  font-family: Verdana,Geneva,sans-serif; 
 }
