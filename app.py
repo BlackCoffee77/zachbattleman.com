@@ -1,4 +1,4 @@
-from flask import *
+from flask import * #pylint: disable=unused-wildcard-import
 
 app = Flask(__name__)
 
