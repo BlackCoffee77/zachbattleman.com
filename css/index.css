@@ -4,20 +4,15 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 
 .header {
 	margin-bottom: 5%;
 }
 
-.header, h1 {
-    color: black;
-    text-align: center;
-	font-family: "eurostile";
-	font-size: 50pt;
-}
 
-.header, h2 {
+.header h2 {
 	text-align: center;
 	font-family: "europa";
 	font-size: 20pt;
@@ -30,20 +25,55 @@ body {
 	width: 15%;
 }
 
-.intro {
+.intro-block {
 	background-color: #7511f6;
-    color: white;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
-/* 
-.pfp{ 
-    width: 140px;
-    height: 140px;
-    background: purple; 
-    -moz-border-radius: 70px; 
-    -webkit-border-radius: 70px; 
-    border-radius: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-    object-position: 50% 0%;
- } */
+
+.intro-block h1 {
+	text-align: center;
+	font-family: "eurostile";
+	font-size: 20pt;
+	color: white;
+
+}
+
+.intro-block h2 {
+	text-align: center;
+	font-family: "europa";
+	font-size: 20pt;
+	font-weight: 150;
+	color: white;
+	width: auto;
+}
+
+.header-block h1{
+	color: black;
+	font-family: "eurostile";
+	font-size: 50pt;
+	text-align: center;
+}
+
+.header-block h2 {
+	text-align: center;
+	font-family: "europa";
+	font-size: 20pt;
+	font-weight: 150;
+
+}
+#blogbtn-override {
+	background-color: white;
+	border: 2px solid #7511f6;
+	/* border-width: 3px;
+	border-radius: 5px; */
+	color: #7511f6;
+	/* cursor: pointer;
+	font-size: 16px; */
+  }
+#navbar-override {
+	background-color: white;
+}
+.align-items-center {
+	text-align: center;
+}
